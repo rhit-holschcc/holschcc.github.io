@@ -3,20 +3,48 @@
 :root {
     --vertical-space: 2rem;
     --horizontal-space: 3rem;
+    --bg-color: #0B090D;
+    --inner-header-color: #A6A5A4;
+    --body-color: #C2D2D2;
+    --light-color: #F2F2F2;
+    --header-color: #898588;
+    --contrast-color: #0CF2F2;
+    --2nd-bg-color: #262624;
 }
 
 body {
     font-size: 18px;
     line-height: 1.5;
+    color: var(--body-color);
+    background-color: var(--bg-color);
 }
 
 h1, h2, h3 {
+    color: var(--header-color);
     font-family: 'Source Code Pro', monospace;
     line-height: 1.2;
 }
 
 body#about img {
     height: 15em;
+}
+
+main {
+    background-color: var(--2nd-bg-color);
+}
+
+main h1, h2, h3 {
+    color: var(--inner-header-color);
+}
+
+a {
+    color: var(--body-color);
+    text-decoration-color: var(--header-color);
+}
+
+a:hover {
+    color: var(--body-color);
+    text-decoration-color: var(--contrast-color);
 }
 
 p {
