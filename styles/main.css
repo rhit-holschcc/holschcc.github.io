@@ -8,6 +8,7 @@
     --body-color: #C2D2D2;
     --light-color: #F2F2F2;
     --header-color: #898588;
+    --2nd-header-color: #C9C5C8;
     --contrast-color: #0CF2F2;
     --2nd-bg-color: #262624;
 }
@@ -19,8 +20,14 @@ body {
     background-color: var(--bg-color);
 }
 
-h1, h2, h3 {
+h1 {
     color: var(--header-color);
+    font-family: 'Source Code Pro', monospace;
+    line-height: 1.2;
+}
+
+h2, h3 {
+    color: var(--2nd-header-color);
     font-family: 'Source Code Pro', monospace;
     line-height: 1.2;
 }
@@ -38,8 +45,8 @@ main h1, h2, h3 {
 }
 
 a {
-    color: var(--body-color);
-    text-decoration-color: var(--header-color);
+    color: var(--light-color);
+    text-decoration-color: var(--body-color);
 }
 
 a:hover {

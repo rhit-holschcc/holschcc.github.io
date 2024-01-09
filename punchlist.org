@@ -1,0 +1,17 @@
+* TODO Layout
++ [ ] Footer is too high on about page
+
+* DONE Images
+CLOSED: [2024-01-08 Mon 23:48]
++ [X] No favicon
++ [X] No alt text
++ [X] Some portfolio images (& their entries) are missing
+
+* DONE Colors
+CLOSED: [2024-01-08 Mon 22:20]
++ [X] Links look bad.
++ [X] Possibly different colors with h2s
+
+* TODO Cross Browser
++ [ ] Check that the site works in Responsively
++ [X] Remember to check in Firefox, & Safari (somehow)
